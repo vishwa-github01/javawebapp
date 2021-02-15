@@ -25,6 +25,7 @@
 		<jacoco.version>0.7.9</jacoco.version>
 	</properties>
 
+	<!--
 	<distributionManagement>
 		<repository>
 			<id>central</id>
@@ -37,11 +38,11 @@
 			<url>http://34.229.97.129:8081/artifactory/libs-snapshot-local</url>
 		</snapshotRepository>
 	</distributionManagement>
-
+-->
 	<scm>
-		<connection>scm:git:git@github.com:keshavkummari/java001.git</connection>
-		<developerConnection>scm:git:git@github.com:keshavkummari/java001.git</developerConnection>
-		<url>git@github.com:keshavkummari/java001.git</url>
+		<connection>scm:git:git@github.com:chennakesavulukummari/javawebapp.git</connection> 
+		<developerConnection>scm:git:git@github.com:chennakesavulukummari/javawebapp.git</developerConnection>
+		<url>git@github.com:chennakesavulukummari/javawebapp.git</url>
 		<tag>HEAD</tag>
 	</scm>
 
