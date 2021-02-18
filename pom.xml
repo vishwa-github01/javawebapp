@@ -23,6 +23,7 @@
 		<java.version>1.8</java.version>
 		<surefire.version>2.17</surefire.version>
 		<jacoco.version>0.7.9</jacoco.version>
+<<<<<<< HEAD
 
 <!--
 	    <sonar.projectKey>devworld</sonar.projectKey>
@@ -50,6 +51,28 @@
 		<connection>scm:git:git@github.com:keshavkummari/devops.git</connection>
 		<developerConnection>scm:git:git@github.com:keshavkummari/devops.git</developerConnection>
 		<url>git@github.com:keshavkummari/devops.git</url>
+=======
+	</properties>
+
+	<!--
+	<distributionManagement>
+		<repository>
+			<id>central</id>
+			<name>releases</name>
+			<url>http://34.229.97.129:8081/artifactory/libs-release-local</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshot</id>
+			<name>snapshots</name>
+			<url>http://34.229.97.129:8081/artifactory/libs-snapshot-local</url>
+		</snapshotRepository>
+	</distributionManagement>
+-->
+	<scm>
+		<connection>scm:git:git@github.com:chennakesavulukummari/javawebapp.git</connection> 
+		<developerConnection>scm:git:git@github.com:chennakesavulukummari/javawebapp.git</developerConnection>
+		<url>git@github.com:chennakesavulukummari/javawebapp.git</url>
+>>>>>>> 5f4f77faa691c723eade25cdc0173143ae095eb6
 		<tag>HEAD</tag>
 	</scm>
 
