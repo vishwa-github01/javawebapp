@@ -34,13 +34,13 @@
 	
 <distributionManagement>
     <repository>
-        <id>central</id>
-        <name>artifactory.cubicway.com-releases</name>
+        <id>release</id>
+        <name>release</name>
         <url>http://3.239.82.160:8082/artifactory/example-repo-local/</url>
     </repository>
     <snapshotRepository>
-        <id>snapshots</id>
-        <name>artifactory.cubicway.com-snapshots</name>
+        <id>snapshot</id>
+        <name>snapshot</name>
         <url>http://3.239.82.160:8082/artifactory/example-repo-local/</url>
     </snapshotRepository>
 </distributionManagement>
