@@ -6,15 +6,13 @@ phases:
   pre_build:
     commands:
       - echo Prebuild Stage `date`
-      - mvn clean
   build:
     commands:
       - echo Build started on `date`
-      - mvn validate
   post_build:
     commands:
       - echo Build completed on `date`
-      - mvn package 
+      - mvn clean validate 
 artifacts:
   files:
-    - target/devworld-0.0.1-SNAPSHOT.jar
+    
