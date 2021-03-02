@@ -17,4 +17,4 @@ phases:
       - mvn package 
 artifacts:
   files:
-    - target/devops-0.0.1-SNAPSHOT.jar
+    - target/devworld-0.0.1-SNAPSHOT.jar
