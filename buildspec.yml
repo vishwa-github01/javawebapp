@@ -14,5 +14,5 @@ phases:
       - echo Build completed on `date`
       - mvn clean validate 
 artifacts:
-  files:
+
     
