@@ -5,14 +5,19 @@ phases:
       java: corretto8
   pre_build:
     commands:
-      - echo Prebuild Stage `date`
+      - cd src/main/resources/static
+      - npm install bower -g
+      - bower install --allow-root
+      - cd $CODEBUILD_SRC_DIR
   build:
     commands:
       - echo Build started on `date`
   post_build:
     commands:
       - echo Build completed on `date`
-      - mvn clean validate 
+      - mvn package
 artifacts:
-
+  files:
+    - target/devops-0.0.1-SNAPSHOT.jar
+    
     
