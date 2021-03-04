@@ -5,9 +5,6 @@ phases:
       java: corretto8
   pre_build:
     commands:
-      - cd src/main/resources/static
-      - npm install bower -g
-      - bower install --allow-root
       - cd $CODEBUILD_SRC_DIR
   build:
     commands:
