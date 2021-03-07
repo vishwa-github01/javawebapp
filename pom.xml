@@ -36,12 +36,12 @@
     <repository>
         <id>release</id>
         <name>release</name>
-        <url>http://3.239.82.160:8082/artifactory/example-repo-local/</url>
+        <url>http://54.152.64.143:8082/artifactory/example-repo-local/</url>
     </repository>
     <snapshotRepository>
         <id>snapshot</id>
         <name>snapshot</name>
-        <url>http://3.239.82.160:8082/artifactory/example-repo-local/</url>
+        <url>http://54.152.64.143:8082/artifactory/example-repo-local/</url>
     </snapshotRepository>
 </distributionManagement>
 	
